@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+header{
+    background-color: #53D8FB;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+header ol{
+    display: flex;
+    gap: 8rem;
+}
+header ol, header li{
+    list-style: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+header a:hover{
+    background-color: black;
+}
+
+header li:hover {
+    transform: scale(1.1);
+    transition: transform .4s
+}
+
+section{
+    border: 1px solid black;
+    height: calc(100vh - 6rem);
+}
+
+#listas{
+    margin-top: 6rem;
+}
+
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#listas>div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#tabelas>table{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#formularios>form{
+    margin-top: 1rem;
+}
